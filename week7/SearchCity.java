@@ -56,7 +56,7 @@ public class SearchCity {
 			if(name.equals("그만")) break;
 			
 			Location location = info.get(name);
-			if(location == null) { 
+			if(location == null) {
 				System.out.println(name + "는 없습니다.");
 			}
 			else {
