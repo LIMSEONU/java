@@ -18,7 +18,7 @@ public class n6_1 extends JFrame {
 			super.paintComponent(g);
 			int w = this.getWidth();
 			int h = this.getHeight();
-			int[] x = { w / 2, 0, w / 2, w }; // 위 왼쪽 아래 오른쪽
+			int[] x = { w / 2, 0, w / 2, w };
 			int[] y = { 0, h / 2, h, h / 2 };
 			int xSpace = (int) this.getWidth() / 30;
 			int ySpace = (int) this.getHeight() / 30;
